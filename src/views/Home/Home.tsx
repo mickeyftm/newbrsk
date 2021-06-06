@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         </Heading>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'PolySwan Finance')}
+          {TranslateString(576, 'Berserk Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Last generation yield farming based on polygon')}</Text>
       </Hero>

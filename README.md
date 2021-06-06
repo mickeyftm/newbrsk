@@ -1,3 +1,3 @@
-# PolySwan Frontend
+# Berserk Frontend
 
-This project contains the main features of the PolySwan application.
+This project contains the main features of the Berserk application.

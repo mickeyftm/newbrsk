@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total SWAN burned since launch"
+        "text": "Total BRSK burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn SWAN"
+        "text": "Stake LP tokens to earn BRSK"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Swan, get SYRUP."
+        "text": "Stake BRSK, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake SWAN tokens, the contract will automatically harvest SWAN rewards for you!"
+        "text": "Every time you stake and unstake BRSK tokens, the contract will automatically harvest BRSK rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Swan price"
+        "text": "BRSK price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 SWAN = 1 SYRUP"
+        "text": "1 BRSK = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of SWAN block emissions each day (10 SWAN per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of BRSK block emissions each day (10 BRSK per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% SWAN"
+        "text": "%num% BRSK"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend SWAN to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend BRSK to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% SWAN Available"
+        "text": "%num% BRSK Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 SWAN"
+        "text": "Your amount must be a multiple of 10 BRSK"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 SWAN"
+        "text": "1 Ticket = 10 BRSK"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your SWAN cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your BRSK cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "SWAN prizes to be claimed"
+        "text": "BRSK prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve SWAN"
+        "text": "Approve BRSK"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of SWAN block emissions each day (10 SWAN per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of BRSK block emissions each day (10 BRSK per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using SWAN-BNB LP tokens, which means you need to stake equal amounts of SWAN and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using BRSK-BNB LP tokens, which means you need to stake equal amounts of BRSK and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get SWAN-BNB LP >"
+        "text": "Get BRSK-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Goose Finance burns the SWAN."
+        "text": "The project gets the BNB, Goose Finance burns the BRSK."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Swan Stats"
+        "text": "BRSK Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New SWAN\/block"
+        "text": "New BRSK\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "SWAN to Harvest"
+        "text": "BRSK to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "SWAN in Wallet"
+        "text": "BRSK in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting SWAN"
+        "text": "Collecting BRSK"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "SWAN to Collect"
+        "text": "BRSK to Collect"
       }
     },
     {
@@ -753,13 +753,13 @@
     {
       "data": {
         "stringId": 576,
-        "text": "PolySwan Finance"
+        "text": "Berserk Finance"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "PolySwan Finance, last generation yield farming based on polygon."
+        "text": "Berserk Finance, last generation yield farming based on polygon."
       }
     },
     {
@@ -771,7 +771,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake SWAN to earn new tokens."
+        "text": "Stake BRSK to earn new tokens."
       }
     },
     {
@@ -789,7 +789,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "SWAN to burn (USD)"
+        "text": "BRSK to burn (USD)"
       }
     },
     {
@@ -801,7 +801,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest SWAN rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest BRSK rewards for you!"
       }
     },
     {
@@ -819,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy SWAN and BNB tokens"
+        "text": "Buy BRSK and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get SWAN-BNB LP tokens by adding SWAN and BNB liquidity"
+        "text": "Get BRSK-BNB LP tokens by adding BRSK and BNB liquidity"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your SWAN-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your BRSK-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -873,7 +873,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for SWAN, or keep for your collection!"
+        "text": "Trade in for BRSK, or keep for your collection!"
       }
     },
     {
@@ -915,7 +915,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive SWAN, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive BRSK, you will lose access to it forever!"
       }
     },
     {
@@ -945,7 +945,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a SWAN value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a BRSK value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -987,7 +987,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for SWAN"
+        "text": "Trade in for BRSK"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn SWAN"
+        "text": "Stake LP tokens to earn BRSK"
       }
     },
     {
@@ -1155,13 +1155,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The SWAN Lottery"
+        "text": "The BRSK Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with SWAN"
+        "text": "Buy tickets with BRSK"
       }
     },
     {
@@ -1215,7 +1215,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback SWAN"
+        "text": "Deposit Fee will be used to buyback BRSK"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn SWAN"
+        "text": "Stake tokens to earn BRSK"
       }
     },
     {
