@@ -128,6 +128,52 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+  {
+    pid: 3,
+    risk: 5,
+    lpSymbol: 'WMATIC-USDC LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
+    },
+    tokenSymbol: 'WMATIC',
+    tokenAddresses: {
+      137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 4,
+    risk: 5,
+    lpSymbol: 'WETH-USDC LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d',
+    },
+    tokenSymbol: 'WETH',
+    tokenAddresses: {
+      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 4,
+    risk: 5,
+    lpSymbol: 'WBTC-USDC LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498',
+    },
+    tokenSymbol: 'WBTC',
+    tokenAddresses: {
+      137: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },  
+
 ]
 
 export default farms
