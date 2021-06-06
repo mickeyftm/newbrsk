@@ -51,12 +51,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'QuickSwap',
-        href: 'https://info.quickswap.exchange/token/0x692ca411d82DeB4A96F8f89E173171b4Af83Badf',
+        href: 'https://info.quickswap.exchange/token/0x3e9d8D160b9E7b7c0FD34dE872671DBA88405313',
       },
-      {
-        label: 'Vfat Tools',
-        href: 'https://vfat.tools/polygon/polyswan/',
-      },
+     // {
+     //   label: 'Vfat Tools',
+     //   href: 'https://vfat.tools/polygon/polyswan/',
+     // },
       {
         label: 'DappRadar',
         href: 'https://dappradar.com/polygon/defi/polyswan-finance',
@@ -69,19 +69,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/PolySwanFinance',
+        href: 'https://github.com/mickeyftm',
       },
       {
         label: 'Docs',
-        href: 'https://polyswan-finance.gitbook.io/polyswan-finance/',
+        href: 'https://berserkfinance.gitbook.io/berserk/',
+      },
+      {
+        label: 'Medium',
+        href: 'https://financeberserk.medium.com/',
       },
     ],
   },
-  {
-    label: 'Audit by Techrate',
-    icon: 'AuditIcon',
-    href: 'https://github.com/PolySwanFinance/polyswan-frontend/blob/main/files/audit.pdf',
-  },
+ // {
+ //   label: 'Audit by Techrate',
+ //   icon: 'AuditIcon',
+ //   href: 'https://github.com/PolySwanFinance/polyswan-frontend/blob/main/files/audit.pdf',
+ // },
 ]
 
 export default config
