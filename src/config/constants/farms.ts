@@ -8,11 +8,11 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BRSK-USDC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x186eb2eed59c85910d092601d0f42cc747b9c7f4',
+      137: '0xc23d96e17eabfef46545bc751750c8e5ae9b889e',
     },
     tokenSymbol: 'BRSK',
     tokenAddresses: {
-      137: '0x7bC58DD35F0545848043176e48C079857816492C',
+      137: '0x3e9d8D160b9E7b7c0FD34dE872671DBA88405313',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -23,11 +23,11 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BRSK-WMATIC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x6bde5809e173748a4067446b2ca01e2425cb91b2',
+      137: '0xd694462db33e90f4f9ad047b68f5031f2470a235',
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
-      137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+      137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
@@ -119,11 +119,11 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BRSK',
     decimal: 18,
     lpAddresses: {
-      137: '0x186eb2eed59c85910d092601d0f42cc747b9c7f4'
+      137: '0xc23d96e17eabfef46545bc751750c8e5ae9b889e'
     },
     tokenSymbol: 'BRSK',
     tokenAddresses: {
-      137: '0x7bC58DD35F0545848043176e48C079857816492C'
+      137: '0x3e9d8D160b9E7b7c0FD34dE872671DBA88405313'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
