@@ -34,7 +34,6 @@ const Hero = styled.div`
     height: 100%;
     z-index: -1;
     opacity: 0.1;
-    background-image: url('/images/egg/3.png');
     background-repeat: no-repeat;
     background-position: top center;
     border-radius: 30px;
