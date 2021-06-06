@@ -57,7 +57,6 @@ const Hero = styled.div`
       height: 100%;
       z-index: -1;
       opacity: 0.6;
-      background-image: url('/images/egg/3b.png');
     background-position: left center, right center;
     background-repeat: no-repeat;
     }
@@ -93,7 +92,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h1" size="xl" mb="24px" color="secondary" >
-          {TranslateString(579, 'Yield Farming has begun.')}
+          Yield Farming has begun
         </Heading>
         <Timer />
       <Hero>
