@@ -97,10 +97,7 @@ const Home: React.FC = () => {
         </Heading>
         <Timer />
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Berserk Finance')}
-        </Heading>
-        <Text>{TranslateString(578, 'Last generation yield farming based on polygon')}</Text>
+      <img src="/images/Title Bar.png" alt="brsk logo" width={950} height={225} />
       </Hero>
       <div>
         <Cards>
