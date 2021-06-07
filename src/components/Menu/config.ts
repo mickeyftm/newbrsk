@@ -31,7 +31,7 @@ const config: MenuEntry[] = [
     href: '/pools',
   },
   {
-    label: 'Dividends (Coming soon)',
+    label: 'Dividends(Coming soon)',
     icon: 'LayerIcon',
     href: '/',
    },
@@ -63,7 +63,7 @@ const config: MenuEntry[] = [
      //   href: 'https://vfat.tools/polygon/polyswan/',
      // },
       {
-        label: 'DappRadar',
+        label: 'DappRadar(coming soon)',
         href: 'https://dappradar.com/polygon/defi/polyswan-finance',
       },
     ],
