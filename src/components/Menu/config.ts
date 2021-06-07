@@ -60,11 +60,11 @@ const config: MenuEntry[] = [
       },
      // {
      //   label: 'Vfat Tools',
-     //   href: 'https://vfat.tools/polygon/polyswan/',
+     //   href: 'https://vfat.tools/polygon/berserkfinance/',
      // },
       {
         label: 'DappRadar(coming soon)',
-        href: 'https://dappradar.com/polygon/defi/polyswan-finance',
+        href: '/',
       },
     ],
   },
@@ -72,10 +72,6 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Github',
-        href: 'https://github.com/mickeyftm',
-      },
       {
         label: 'Docs',
         href: 'https://berserkfinance.gitbook.io/berserk/',
@@ -86,11 +82,11 @@ const config: MenuEntry[] = [
       },
     ],
   },
- // {
- //   label: 'Audit by Techrate',
- //   icon: 'AuditIcon',
- //   href: 'https://github.com/PolySwanFinance/polyswan-frontend/blob/main/files/audit.pdf',
- // },
+  {
+    label: 'Audit(coming soon)',
+    icon: 'AuditIcon',
+    href: '/',
+  },
 ]
 
 export default config
