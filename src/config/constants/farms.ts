@@ -58,7 +58,7 @@ const farms: FarmConfig[] = [
      },
      tokenSymbol: 'USDC',
      tokenAddresses: {
-       137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+       137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
      },
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
@@ -73,7 +73,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
-      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
+      137: '0xa772b9ac43e7a165cac5582b27376020263189eb',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -88,7 +88,7 @@ const farms: FarmConfig[] = [
      },
      tokenSymbol: 'USDT',
      tokenAddresses: {
-       137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
+       137: '0xa772b9ac43e7a165cac5582b27376020263189eb',
      },
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
