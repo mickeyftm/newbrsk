@@ -269,22 +269,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-  {
-    pid: 15,
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'LINK',
-    decimal: 18,
-    lpAddresses: {
-      137: '0x70cee55c98f6da2685807611f115ea737d4a248e'
-    },
-    tokenSymbol: 'LINK',
-    tokenAddresses: {
-      137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
+ // {
+ //   pid: 15,
+ //   risk: 3,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'LINK',
+ //   decimal: 18,
+ //   lpAddresses: {
+ //     137: '0x70cee55c98f6da2685807611f115ea737d4a248e'
+ //   },
+ //   tokenSymbol: 'LINK',
+ //   tokenAddresses: {
+ //    137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
 
 ]
 
