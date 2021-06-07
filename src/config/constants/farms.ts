@@ -50,7 +50,7 @@ const farms: FarmConfig[] = [
   },
    {
      pid: 8,
-     risk: 3,
+     risk: 2,
      lpSymbol: 'WMATIC-USDC LP',
      decimal: 18,
      lpAddresses: {
@@ -285,7 +285,51 @@ const farms: FarmConfig[] = [
  //   quoteTokenSymbol: QuoteToken.USDC,
  //   quoteTokenAdresses: contracts.usdc,
  // },
-
+ {
+  pid: 16,
+  risk: 3,
+  lpSymbol: 'AAVE-USDC LP',
+  decimal: 18,
+  lpAddresses: {
+    137: '0x7c76B6B3FE14831A39C0fec908DA5f17180df677',
+  },
+  tokenSymbol: 'AAVE',
+  tokenAddresses: {
+    137: '0xd6df932a45c0f255f85145f286ea0b292b21c90b',
+  },
+  quoteTokenSymbol: QuoteToken.USDC,
+  quoteTokenAdresses: contracts.usdc,
+},  
+{
+  pid: 17,
+  risk: 3,
+  lpSymbol: 'QUICK-USDC LP',
+  decimal: 18,
+  lpAddresses: {
+    137: '0x1f1e4c845183ef6d50e9609f16f6f9cae43bc9cb',
+  },
+  tokenSymbol: 'QUICK',
+  tokenAddresses: {
+    137: '0x831753dd7087cac61ab5644b308642cc1c33dc13',
+  },
+  quoteTokenSymbol: QuoteToken.USDC,
+  quoteTokenAdresses: contracts.usdc,
+},
+{
+  pid: 18,
+  risk: 3,
+  lpSymbol: 'LINK-USDC LP',
+  decimal: 18,
+  lpAddresses: {
+    137: '0x70cee55c98f6da2685807611f115ea737d4a248e',
+  },
+  tokenSymbol: 'LINK',
+  tokenAddresses: {
+    137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
+  },
+  quoteTokenSymbol: QuoteToken.USDC,
+  quoteTokenAdresses: contracts.usdc,
+},  
 ]
 
 export default farms
