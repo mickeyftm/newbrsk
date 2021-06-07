@@ -56,9 +56,9 @@ const farms: FarmConfig[] = [
      lpAddresses: {
        137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
      },
-     tokenSymbol: 'USDC',
+     tokenSymbol: 'WMATIC',
      tokenAddresses: {
-       137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
+       137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
      },
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
@@ -71,9 +71,9 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       137: '0x604229c960e5cacf2aaeac8be68ac07ba9df81c3',
     },
-    tokenSymbol: 'USDT',
+    tokenSymbol: 'WMATIC',
     tokenAddresses: {
-      137: '0xa772b9ac43e7a165cac5582b27376020263189eb',
+      137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -90,8 +90,8 @@ const farms: FarmConfig[] = [
      tokenAddresses: {
        137: '0xa772b9ac43e7a165cac5582b27376020263189eb',
      },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
+     quoteTokenSymbol: QuoteToken.USDT,
+     quoteTokenAdresses: contracts.usdt,
    },
    {
      pid: 11,
