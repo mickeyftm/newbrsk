@@ -91,7 +91,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h1" size="xl" mb="24px" color="secondary" >
-          Yield Farming has begun
+          Farming will start in
         </Heading>
         <Timer />
       <Hero>
