@@ -30,6 +30,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+  {
+    label: 'Dividends (Coming soon)',
+    icon: 'LayerIcon',
+    href: '/',
+   },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
