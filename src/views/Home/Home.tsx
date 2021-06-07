@@ -91,9 +91,8 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h1" size="xl" mb="24px" color="secondary" >
-          NEW BRSK Launch
+          Farming starts in
         </Heading>
-        <text>Farming starts on 8th June 12PM UTC</text>
         <Timer />
       <Hero>
       <img src="/images/Title Bar.png" alt="brsk logo" width={950} height={225} />
