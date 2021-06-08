@@ -93,6 +93,7 @@ const Home: React.FC = () => {
       <Heading as="h1" size="xl" mb="24px" color="secondary" >
           Farming starts in
         </Heading>
+        <text>Block number 15478186</text>
         <Timer />
       <Hero>
       <img src="/images/Title Bar.png" alt="brsk logo" width={950} height={225} />
