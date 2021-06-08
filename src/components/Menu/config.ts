@@ -58,15 +58,22 @@ const config: MenuEntry[] = [
         label: 'QuickSwap',
         href: 'https://info.quickswap.exchange/token/0x3e9d8D160b9E7b7c0FD34dE872671DBA88405313',
       },
+      {
+        label: '$BRSK Chart',
+        href: 'https://app.polychart.io/explorer/polygon/0xd694462db33e90f4f9ad047b68f5031f2470a235',
+      },
      // {
      //   label: 'Vfat Tools',
      //   href: 'https://vfat.tools/polygon/berserkfinance/',
      // },
       {
+        label: 'Rugdoc.io',
+        href: 'https://rugdoc.io/project/berserk-finance/',
+      },
+      {
         label: 'DappRadar(coming soon)',
         href: '/',
-      },
-    ],
+      },    ],
   },
   {
     label: 'More',
