@@ -119,7 +119,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'WBTC',
     decimal: 18,
     lpAddresses: {
-      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+      137: '0xf6b87181bf250af082272e3f448ec3238746ce3d'
     },
     tokenSymbol: 'WBTC',
     tokenAddresses: {
