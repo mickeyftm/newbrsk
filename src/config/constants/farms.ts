@@ -112,22 +112,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-  {
-    pid: 7,
-    risk: 2,
-    isTokenOnly: true,
-    lpSymbol: 'WBTC',
-    decimal: 18,
-    lpAddresses: {
-      137: '0xf6b87181bf250af082272e3f448ec3238746ce3d'
-    },
-    tokenSymbol: 'WBTC',
-    tokenAddresses: {
-      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
+//  {
+//    pid: 7,
+//    risk: 2,
+//    isTokenOnly: true,
+//    lpSymbol: 'WBTC',
+//    decimal: 18,
+//    lpAddresses: {
+//      137: '0xf6b87181bf250af082272e3f448ec3238746ce3d'
+//    },
+//    tokenSymbol: 'WBTC',
+//    tokenAddresses: {
+//      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+//    },
+//    quoteTokenSymbol: QuoteToken.USDC,
+//    quoteTokenAdresses: contracts.usdc,
+//  },
 //  {
 //     pid: 8,
 //     risk: 3,
