@@ -90,8 +90,6 @@ const Home: React.FC = () => {
 
   return (
     <Page>
-      <Heading as="h2" size="lg" mb="24px" color="secondary" >
-          Farming is LIVE
       <Hero>
       <img src="/images/Title Bar.png" alt="brsk logo" width={950} height={225} />
       </Hero>
