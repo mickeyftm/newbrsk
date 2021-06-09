@@ -91,9 +91,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h2" size="lg" mb="24px" color="secondary" >
-          Farming starts in Block number 15499159
-        </Heading>
-        <text>Approximately around 9th JUNE 12:50AM UTC</text>
+          Farming is LIVE
       <Hero>
       <img src="/images/Title Bar.png" alt="brsk logo" width={950} height={225} />
       </Hero>

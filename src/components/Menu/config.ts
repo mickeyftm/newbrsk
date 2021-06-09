@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   {
     label: 'Dividends(Coming soon)',
     icon: 'LayerIcon',
-    href: '/',
+    href: '/404',
    },
   // {
   //   label: 'Pools',
@@ -72,7 +72,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'DappRadar(coming soon)',
-        href: '/',
+        href: '/404',
       },    ],
   },
   {
