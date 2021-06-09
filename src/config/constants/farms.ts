@@ -48,6 +48,86 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+ // {
+ //   pid: 3,
+ //   risk: 1,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'WMATIC',
+ //   decimal: 18,
+ //   lpAddresses: {
+ //     137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827'
+ //   },
+ //   tokenSymbol: 'WMATIC',
+ //   tokenAddresses: {
+ //     137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
+ // {
+ //   pid: 4,
+ //   risk: 2,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'USDC',
+ //   decimal: 6,
+ //   lpAddresses: {
+ //     137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
+ //   },
+ //   tokenSymbol: 'USDC',
+ //   tokenAddresses: {
+ //     137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
+ // {
+ //   pid: 5,
+ //   risk: 2,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'USDT',
+ //   decimal: 6,
+ //   lpAddresses: {
+ //     137: '0x2cf7252e74036d1da831d11089d326296e64a728'
+ //   },
+ //   tokenSymbol: 'USDT',
+ //   tokenAddresses: {
+ //     137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
+ // {
+ //   pid: 6,
+ //   risk: 2,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'WETH',
+ //   decimal: 18,
+ //   lpAddresses: {
+ //     137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d'
+ //   },
+ //   tokenSymbol: 'WETH',
+ //   tokenAddresses: {
+ //     137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
+ // {
+ //   pid: 7,
+ //   risk: 2,
+ //   isTokenOnly: true,
+ //   lpSymbol: 'WBTC',
+ //   decimal: 18,
+ //   lpAddresses: {
+ //     137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+ //   },
+ //   tokenSymbol: 'WBTC',
+ //   tokenAddresses: {
+ //     137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+ //   },
+ //   quoteTokenSymbol: QuoteToken.USDC,
+ //   quoteTokenAdresses: contracts.usdc,
+ // },
  //  {
  //    pid: 8,
  //    risk: 2,
@@ -157,86 +237,6 @@ const farms: FarmConfig[] = [
   //   quoteTokenSymbol: QuoteToken.BUSD,
   //   quoteTokenAdresses: contracts.busd,
   // },
- // {
- //   pid: 3,
- //   risk: 1,
- //   isTokenOnly: true,
- //   lpSymbol: 'WMATIC',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827'
- //   },
- //   tokenSymbol: 'WMATIC',
- //   tokenAddresses: {
- //     137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
- // {
- //   pid: 4,
- //   risk: 2,
- //   isTokenOnly: true,
- //   lpSymbol: 'USDC',
- //   decimal: 6,
- //   lpAddresses: {
- //     137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
- //   },
- //   tokenSymbol: 'USDC',
- //   tokenAddresses: {
- //     137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
- // {
- //   pid: 5,
- //   risk: 2,
- //   isTokenOnly: true,
- //   lpSymbol: 'USDT',
- //   decimal: 6,
- //   lpAddresses: {
- //     137: '0x2cf7252e74036d1da831d11089d326296e64a728'
- //   },
- //   tokenSymbol: 'USDT',
- //   tokenAddresses: {
- //     137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
- // {
- //   pid: 6,
- //   risk: 2,
- //   isTokenOnly: true,
- //   lpSymbol: 'WETH',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d'
- //   },
- //   tokenSymbol: 'WETH',
- //   tokenAddresses: {
- //     137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
- // {
- //   pid: 7,
- //   risk: 2,
- //   isTokenOnly: true,
- //   lpSymbol: 'WBTC',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
- //   },
- //   tokenSymbol: 'WBTC',
- //   tokenAddresses: {
- //     137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
  // {
  //   pid: 13,
  //   risk: 2,
