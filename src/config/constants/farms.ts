@@ -128,21 +128,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-  {
-     pid: 8,
-     risk: 2,
-     lpSymbol: 'WMATIC-USDC LP',
-     decimal: 18,
-     lpAddresses: {
-       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
-     },
-     tokenSymbol: 'WMATIC',
-     tokenAddresses: {
-       137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-     },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
-  },
+//  {
+//     pid: 8,
+//     risk: 3,
+//     lpSymbol: 'WMATIC-USDC LP',
+//     decimal: 18,
+//     lpAddresses: {
+//       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
+//     },
+//     tokenSymbol: 'WMATIC',
+//     tokenAddresses: {
+//       137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+//     },
+//     quoteTokenSymbol: QuoteToken.USDC,
+//     quoteTokenAdresses: contracts.usdc,
+//  },
  //  {
  //   pid: 9,
  //   risk: 3,

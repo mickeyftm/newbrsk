@@ -62,18 +62,15 @@ const config: MenuEntry[] = [
         label: '$BRSK Chart',
         href: 'https://app.polychart.io/explorer/polygon/0xd694462db33e90f4f9ad047b68f5031f2470a235',
       },
-     // {
-     //   label: 'Vfat Tools',
-     //   href: 'https://vfat.tools/polygon/berserkfinance/',
-     // },
       {
-        label: 'Rugdoc.io',
-        href: 'https://rugdoc.io/project/berserk-finance/',
+        label: 'Vfat Tools',
+        href: 'https://vfat.tools/polygon/berserkfinance/',
       },
       {
-        label: 'DappRadar(coming soon)',
-        href: '/404',
-      },    ],
+        label: 'DappRadar',
+        href: 'https://dappradar.com/polygon/defi/berserk-finance',
+      },
+    ],
   },
   {
     label: 'More',
@@ -86,6 +83,10 @@ const config: MenuEntry[] = [
       {
         label: 'Medium',
         href: 'https://financeberserk.medium.com/',
+      },
+      {
+        label: 'Rugdoc.io',
+        href: 'https://rugdoc.io/project/berserk-finance/',
       },
     ],
   },
