@@ -50,7 +50,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    risk: 3,
+    risk: 2,
     isTokenOnly: true,
     lpSymbol: 'WMATIC',
     decimal: 18,
@@ -66,7 +66,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 4,
-    risk: 3,
+    risk: 2,
     isTokenOnly: true,
     lpSymbol: 'USDC',
     decimal: 6,
@@ -112,37 +112,37 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
- // {
- //   pid: 7,
- //   risk: 2,
- //   isTokenOnly: true,
- //   lpSymbol: 'WBTC',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
- //   },
- //   tokenSymbol: 'WBTC',
- //   tokenAddresses: {
- //     137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },
- //  {
- //    pid: 8,
- //    risk: 2,
- //   lpSymbol: 'WMATIC-USDC LP',
- //   decimal: 18,
- //    lpAddresses: {
- //      137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
- //    },
- //    tokenSymbol: 'WMATIC',
- //    tokenAddresses: {
- //      137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
- //    },
- //    quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- //  },
+  {
+    pid: 7,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'WBTC',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+    },
+    tokenSymbol: 'WBTC',
+    tokenAddresses: {
+      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+     pid: 8,
+     risk: 2,
+     lpSymbol: 'WMATIC-USDC LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
+     },
+     tokenSymbol: 'WMATIC',
+     tokenAddresses: {
+       137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+  },
  //  {
  //   pid: 9,
  //   risk: 3,
