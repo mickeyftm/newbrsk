@@ -1,5 +1,4 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
-import imgUrl from 'https://berserkfinance.com/images/egg/logo.png';
 
 const config: MenuEntry[] = [
   {
@@ -78,39 +77,20 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Docs',
+        label: 'Documents',
         href: 'https://berserkfinance.gitbook.io/berserk/',
       },
       {
         label: 'Medium',
         href: 'https://financeberserk.medium.com/',
       },
-      {
-        label: 'Rugdoc.io',
-        href: 'https://rugdoc.io/project/berserk-finance/',
-      },
     ],
   },
   {
-    label: 'Audit(coming soon)',
+    label: 'Review by Rugdoc.io',
     icon: 'AuditIcon',
-    href: '/',
+    href: 'https://rugdoc.io/project/berserk-finance/',
   },
 ]
-
-const config: MenuEntry[] = [
-  {
-  <div className="header">
-    <div className="header-left">
-      <div>
-        <img
-          src={imgUrl}
-          alt="rugdoc"
-        />
-      </div>
-    </div>
-  </div>
-};
-
 
 export default config
