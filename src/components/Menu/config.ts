@@ -98,7 +98,8 @@ const config: MenuEntry[] = [
   },
 ]
 
-const Header = () => (
+const config: MenuEntry[] = [
+  {
   <div className="header">
     <div className="header-left">
       <div>
@@ -109,7 +110,7 @@ const Header = () => (
       </div>
     </div>
   </div>
-);
+};
 
 
 export default config
