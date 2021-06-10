@@ -69,7 +69,7 @@ const farms: FarmConfig[] = [
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'USDC',
-    decimal: 18,
+    decimal: 6,
     lpAddresses: {
       137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
     },
