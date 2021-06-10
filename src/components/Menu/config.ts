@@ -96,18 +96,20 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     href: '/',
   },
-  {
-    <div className="header">
+]
+
+const Header = () => (
+  <div className="header">
     <div className="header-left">
       <div>
         <img
           src={imgUrl}
-          alt=""
+          alt="rugdoc"
         />
       </div>
     </div>
   </div>
-  },
-]
+);
+
 
 export default config
