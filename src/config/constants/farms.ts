@@ -84,22 +84,6 @@ const farms: FarmConfig[] = [
     pid: 5,
     risk: 2,
     isTokenOnly: true,
-    lpSymbol: 'USDT',
-    decimal: 18,
-    lpAddresses: {
-      137: '0x2cf7252e74036d1da831d11089d326296e64a728'
-    },
-    tokenSymbol: 'USDT',
-    tokenAddresses: {
-      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 6,
-    risk: 2,
-    isTokenOnly: true,
     lpSymbol: 'WETH',
     decimal: 18,
     lpAddresses: {
@@ -107,13 +91,13 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
-      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
+      137: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
 //  {
-//    pid: 7,
+//    pid: 6,
 //    risk: 2,
 //    isTokenOnly: true,
 //    lpSymbol: 'WBTC',
@@ -128,6 +112,22 @@ const farms: FarmConfig[] = [
 //    quoteTokenSymbol: QuoteToken.USDC,
 //    quoteTokenAdresses: contracts.usdc,
 //  },
+  {
+    pid: 7,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'USDT',
+    decimal: 6,
+    lpAddresses: {
+      137: '0x2cf7252e74036d1da831d11089d326296e64a728'
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
 //  {
 //    pid: 7,
 //    risk: 2,
