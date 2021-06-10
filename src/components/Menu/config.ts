@@ -1,4 +1,5 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
+import imgUrl from 'https://berserkfinance.com/images/egg/logo.png';
 
 const config: MenuEntry[] = [
   {
@@ -94,6 +95,18 @@ const config: MenuEntry[] = [
     label: 'Audit(coming soon)',
     icon: 'AuditIcon',
     href: '/',
+  },
+  {
+    <div className="header">
+    <div className="header-left">
+      <div>
+        <img
+          src={imgUrl}
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
   },
 ]
 
