@@ -10,7 +10,7 @@ export default {
   },
   lottery: {
     56: '',
-    137: '',
+    97: '',
   },
   lotteryNFT: {
     56: '',
