@@ -140,8 +140,8 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
     },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
      pid: 9,
@@ -155,8 +155,8 @@ const farms: FarmConfig[] = [
      tokenAddresses: {
        137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
      },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
+     quoteTokenSymbol: QuoteToken.CAKE,
+     quoteTokenAdresses: contracts.cake,
   },
   {
      pid: 10,
@@ -170,8 +170,8 @@ const farms: FarmConfig[] = [
      tokenAddresses: {
        137: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
      },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
+     quoteTokenSymbol: QuoteToken.CAKE,
+     quoteTokenAdresses: contracts.cake,
     },
     {
      pid: 14,
@@ -185,8 +185,8 @@ const farms: FarmConfig[] = [
      tokenAddresses: {
        137: '0x831753dd7087cac61ab5644b308642cc1c33dc13',
      },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
+     quoteTokenSymbol: QuoteToken.CAKE,
+     quoteTokenAdresses: contracts.cake,
    },
    {
      pid: 12,
@@ -200,8 +200,8 @@ const farms: FarmConfig[] = [
      tokenAddresses: {
        137: '0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39',
      },
-     quoteTokenSymbol: QuoteToken.USDC,
-     quoteTokenAdresses: contracts.usdc,
+     quoteTokenSymbol: QuoteToken.CAKE,
+     quoteTokenAdresses: contracts.cake,
    },
    {
     pid: 15,
