@@ -112,22 +112,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-  {
-    pid: 6,
-    risk: 2,
-    isTokenOnly: true,
-    lpSymbol: 'WBTC',
-    decimal: 18,
-    lpAddresses: {
-      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
-    },
-    tokenSymbol: 'WBTC',
-    tokenAddresses: {
-      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
+//  {
+//    pid: 6,
+//    risk: 2,
+//    isTokenOnly: true,
+//    lpSymbol: 'WBTC',
+//    decimal: 18,
+//    lpAddresses: {
+//      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+//    },
+//    tokenSymbol: 'WBTC',
+//    tokenAddresses: {
+//      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+//    },
+//    quoteTokenSymbol: QuoteToken.USDC,
+//    quoteTokenAdresses: contracts.usdc,
+//  },
   {
     pid: 8,
     risk: 3,
@@ -198,7 +198,7 @@ const farms: FarmConfig[] = [
      },
      tokenSymbol: 'LINK',
      tokenAddresses: {
-       137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
+       137: '0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39',
      },
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
