@@ -191,7 +191,7 @@ const farms: FarmConfig[] = [
    {
      pid: 12,
      risk: 4,
-     lpSymbol: 'LINK-BRSK LP',
+     lpSymbol: 'BRSK-LINK LP',
      decimal: 18,
      lpAddresses: {
        137: '0x1f203b86D075f5b771c78Afe1E854541E1069c69',
@@ -203,21 +203,21 @@ const farms: FarmConfig[] = [
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
    },
- //  {
- //   pid: 12,
- //   risk: 4,
- //   lpSymbol: 'WBTC-WMATIC LP',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0xf6b87181bf250af082272e3f448ec3238746ce3d',
- //   },
- //   tokenSymbol: 'WBTC',
- //   tokenAddresses: {
- //     137: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },  
+   {
+    pid: 15,
+    risk: 4,
+    lpSymbol: 'BRSK-AAVE LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x20e907AEAE4B12037Fc4ce4fCAd7d31132dB7731',
+    },
+    tokenSymbol: 'AAVE',
+    tokenAddresses: {
+      137: '0xD6DF932A45C0f255f85145f286eA0b292B21C90B',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },  
 
   // {
   //   pid: 99,
