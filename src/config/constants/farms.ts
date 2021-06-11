@@ -215,8 +215,8 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       137: '0xD6DF932A45C0f255f85145f286eA0b292B21C90B',
     },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },  
 
   // {
