@@ -113,6 +113,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
   {
+    pid: 6,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'WBTC',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+    },
+    tokenSymbol: 'WBTC',
+    tokenAddresses: {
+      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
     pid: 8,
     risk: 3,
     lpSymbol: 'BRSK-WETH LP',
@@ -172,21 +188,21 @@ const farms: FarmConfig[] = [
      quoteTokenSymbol: QuoteToken.USDC,
      quoteTokenAdresses: contracts.usdc,
    },
- //  {
- //    pid: 11,
- //    risk: 4,
- //    lpSymbol: 'WETH-WMATIC LP',
- //    decimal: 18,
- //    lpAddresses: {
- //      137: '0xadbf1854e5883eb8aa7baf50705338739e558e5b',
- //    },
- //    tokenSymbol: 'WETH',
- //    tokenAddresses: {
- //      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
- //    },
- //    quoteTokenSymbol: QuoteToken.USDC,
- //    quoteTokenAdresses: contracts.usdc,
- //  },
+   {
+     pid: 12,
+     risk: 4,
+     lpSymbol: 'LINK-BRSK LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0x1f203b86D075f5b771c78Afe1E854541E1069c69',
+     },
+     tokenSymbol: 'LINK',
+     tokenAddresses: {
+       137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+   },
  //  {
  //   pid: 12,
  //   risk: 4,
