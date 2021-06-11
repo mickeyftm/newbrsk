@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   {
     label: 'Dividends(Coming soon)',
     icon: 'LayerIcon',
-    href: '/404',
+    href: 'https://berserkfinance.gitbook.io/berserk/',
    },
   // {
   //   label: 'Pools',
