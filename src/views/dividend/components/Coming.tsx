@@ -37,16 +37,41 @@ const Coming: React.FC = () => {
   return (
     <Card>
       <div style={{ padding: '24px' }}>
-        <CardTitle>Berserk Dividends</CardTitle>
-        <Image src="/images/egg/9.png" width={64} height={64} alt="Dividends" />
-        <br />
-        <Label>Distributes fee income back to BRSK holders</Label>
-        <Button variant="secondary" fullWidth mb="16px">
-          <span style={{fontSize: 'x-large'}}>$10,000</span> of Matic Dividends
+        <CardTitle>
+          {TranslateString(414, 'Your Project?')}{' '}
+          <span role="img" aria-label="eyes">
+            👀
+          </span>
+        </CardTitle>
+        <Image src="/images/bunny-question.svg" width={64} height={64} alt="Your project here" />
+        <Balance>???</Balance>
+        <Label>{TranslateString(416, 'Create a pool for your token')}</Label>
+        <Button
+          variant="secondary"
+          as="a"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
+          external
+          fullWidth
+          mb="16px"
+        >
+          {TranslateString(418, 'Apply Now')}
         </Button>
+        <DetailPlaceholder>
+          <div style={{ flex: 1 }}>{TranslateString(736, 'APR')}:</div>
+          <Value>??</Value>
+        </DetailPlaceholder>
+        <DetailPlaceholder>
+          <div style={{ flex: 1 }}>
+            <span role="img" aria-label="syrup">
+              🥞{' '}
+            </span>
+            {TranslateString(384, 'Your Stake')}:
+          </div>
+          <Value>??? CAKE</Value>
+        </DetailPlaceholder>
       </div>
       <Footer>
-      <div style={{ flex: 1 }}> Let us know what <b>DIVIDEND</b> you would like to see next!</div>
+        <CommunityTag />
       </Footer>
     </Card>
   )

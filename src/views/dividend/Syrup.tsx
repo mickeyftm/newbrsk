@@ -10,12 +10,11 @@ import partition from 'lodash/partition'
 import useI18n from 'hooks/useI18n'
 import useBlock from 'hooks/useBlock'
 import { getBalanceNumber } from 'utils/formatBalance'
-import { useFarms, usePriceBnbBusd, usePools, usePoolFromPid } from 'state/hooks'
+import { useFarms, usePriceBnbBusd, usePools } from 'state/hooks'
 import { QuoteToken, PoolCategory } from 'config/constants/types'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
 import Coming from './components/Coming'
-import CakeStats from './components/CakeStats'
 import PoolCard from './components/PoolCard'
 import PoolTabButtons from './components/PoolTabButtons'
 import Divider from './components/Divider'
@@ -34,7 +33,7 @@ const Farm: React.FC = () => {
     if (tokenName === 'BNB') {
       return new BigNumber(1)
     }
-    if (tokenPrice && quoteToken === QuoteToken.BUSD) {
+    if (tokenPrice && quoteToken === QuoteToken.USDC) {
       return tokenPriceBN.div(bnbPriceUSD)
     }
     return tokenPriceBN
@@ -54,10 +53,9 @@ const Farm: React.FC = () => {
     )
 
     const totalRewardPricePerYear = rewardTokenPriceInBNB.times(pool.tokenPerBlock).times(BLOCKS_PER_YEAR)
-
     const totalStakingTokenInPool = stakingTokenPriceInBNB.times(getBalanceNumber(pool.totalStaked))
     const apy = totalRewardPricePerYear.div(totalStakingTokenInPool).times(100)
-    
+
     return {
       ...pool,
       isFinished: pool.sousId === 0 ? false : pool.isFinished || block > pool.endBlock,
@@ -72,19 +70,16 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            {TranslateString(282, 'Profit Sharing Pool')}
+            {TranslateString(282, 'SYRUP Pool')}
           </Heading>
           <ul>
-            <li>Stake BRSK to revieve dividend payouts.</li>
-            <li>You can unstake at any time.</li>
-            <li>Dividends are distributed linearly over the week.</li>
+            <li>{TranslateString(580, 'Stake CAKE to earn new tokens.')}</li>
+            <li>{TranslateString(404, 'You can unstake at any time.')}</li>
+            <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
           </ul>
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
       </Hero>
-      <CakeStats />
-      <br />
-
       <PoolTabButtons />
       <Divider />
       <FlexLayout>
@@ -93,8 +88,8 @@ const Farm: React.FC = () => {
             {orderBy(openPools, ['sortOrder']).map((pool) => (
               <PoolCard key={pool.sousId} pool={pool} />
             ))}
+            <Coming />
           </>
-          
         </Route>
         <Route path={`${path}/history`}>
           {orderBy(finishedPools, ['sortOrder']).map((pool) => (
