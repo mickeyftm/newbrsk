@@ -96,22 +96,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-//  {
-//    pid: 6,
-//    risk: 2,
-//    isTokenOnly: true,
-//    lpSymbol: 'WBTC',
-//    decimal: 18,
-//    lpAddresses: {
-//      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
-//    },
-//    tokenSymbol: 'WBTC',
-//    tokenAddresses: {
-//      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
-//    },
-//    quoteTokenSymbol: QuoteToken.USDC,
-//    quoteTokenAdresses: contracts.usdc,
-//  },
   {
     pid: 7,
     risk: 2,
@@ -128,97 +112,112 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-//  {
-//    pid: 7,
-//    risk: 2,
-//    isTokenOnly: true,
-//    lpSymbol: 'WBTC',
-//    decimal: 18,
-//    lpAddresses: {
-//      137: '0xf6b87181bf250af082272e3f448ec3238746ce3d'
-//    },
-//    tokenSymbol: 'WBTC',
-//    tokenAddresses: {
-//      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
-//    },
-//    quoteTokenSymbol: QuoteToken.USDC,
-//    quoteTokenAdresses: contracts.usdc,
-//  },
-//  {
-//     pid: 8,
-//     risk: 3,
-//     lpSymbol: 'WMATIC-USDC LP',
-//     decimal: 18,
-//     lpAddresses: {
-//       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
-//     },
-//     tokenSymbol: 'WMATIC',
-//     tokenAddresses: {
-//       137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-//     },
-//     quoteTokenSymbol: QuoteToken.USDC,
-//     quoteTokenAdresses: contracts.usdc,
-//  },
- //  {
- //   pid: 9,
- //   risk: 3,
- //   lpSymbol: 'WMATIC-USDT LP',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0x604229c960e5cacf2aaeac8be68ac07ba9df81c3',
- //   },
- //   tokenSymbol: 'USDT',
- //   tokenAddresses: {
- //     137: '0xa772b9ac43e7a165cac5582b27376020263189eb',
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- //  },
- //  {
- //    pid: 10,
- //    risk: 3,
- //    lpSymbol: 'USDC-USDT LP',
- //    decimal: 18,
- //    lpAddresses: {
- //      137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
- //    },
- //    tokenSymbol: 'USDC',
- //    tokenAddresses: {
- //      137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
- //    },
- //    quoteTokenSymbol: QuoteToken.USDC,
- //    quoteTokenAdresses: contracts.usdc,
- //  },
- //  {
- //    pid: 11,
- //    risk: 4,
- //    lpSymbol: 'WETH-WMATIC LP',
- //    decimal: 18,
- //    lpAddresses: {
- //      137: '0xadbf1854e5883eb8aa7baf50705338739e558e5b',
- //    },
- //    tokenSymbol: 'WETH',
- //    tokenAddresses: {
- //      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
- //    },
- //    quoteTokenSymbol: QuoteToken.USDC,
- //    quoteTokenAdresses: contracts.usdc,
- //  },
- //  {
- //   pid: 12,
- //   risk: 4,
- //   lpSymbol: 'WBTC-WMATIC LP',
- //   decimal: 18,
- //   lpAddresses: {
- //     137: '0xf6b87181bf250af082272e3f448ec3238746ce3d',
- //   },
- //   tokenSymbol: 'WBTC',
- //   tokenAddresses: {
- //     137: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
- //   },
- //   quoteTokenSymbol: QuoteToken.USDC,
- //   quoteTokenAdresses: contracts.usdc,
- // },  
+  {
+    pid: 6,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'WBTC',
+    decimal: 8,
+    lpAddresses: {
+      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+    },
+    tokenSymbol: 'WBTC',
+    tokenAddresses: {
+      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 8,
+    risk: 3,
+    lpSymbol: 'BRSK-WETH LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xC186632e260366F5E8De110E3bF0f08aDB9a3Cad'
+    },
+    tokenSymbol: 'WETH',
+    tokenAddresses: {
+      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+     pid: 9,
+     risk: 3,
+     lpSymbol: 'BRSK-WBTC LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0x3537157dae99948a30474f248A1DfF985CD71B9c',
+     },
+     tokenSymbol: 'WBTC',
+     tokenAddresses: {
+       137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+  },
+  {
+     pid: 10,
+     risk: 3,
+     lpSymbol: 'BRSK-DAI LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0xBf57E719f42073c189b31F7fA1C0D4e122327419',
+     },
+     tokenSymbol: 'DAI',
+     tokenAddresses: {
+       137: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+    },
+    {
+     pid: 14,
+     risk: 3,
+     lpSymbol: 'BRSK-QUICK LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0x5384194F0346B4a056Dfdd9079C84De6d3707E97'
+     },
+     tokenSymbol: 'QUICK',
+     tokenAddresses: {
+       137: '0x831753dd7087cac61ab5644b308642cc1c33dc13',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+   },
+   {
+     pid: 12,
+     risk: 4,
+     lpSymbol: 'BRSK-LINK LP',
+     decimal: 18,
+     lpAddresses: {
+       137: '0x1f203b86D075f5b771c78Afe1E854541E1069c69',
+     },
+     tokenSymbol: 'LINK',
+     tokenAddresses: {
+       137: '0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39',
+     },
+     quoteTokenSymbol: QuoteToken.USDC,
+     quoteTokenAdresses: contracts.usdc,
+   },
+   {
+    pid: 15,
+    risk: 4,
+    lpSymbol: 'BRSK-AAVE LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x20e907AEAE4B12037Fc4ce4fCAd7d31132dB7731',
+    },
+    tokenSymbol: 'AAVE',
+    tokenAddresses: {
+      137: '0xD6DF932A45C0f255f85145f286eA0b292B21C90B',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },  
 
   // {
   //   pid: 99,
