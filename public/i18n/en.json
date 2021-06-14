@@ -116,6 +116,12 @@
     },
     {
       "data": {
+        "stringId": 317,
+        "text": "Withdraw"
+      }
+    },
+    {
+      "data": {
         "stringId": 318,
         "text": "Earn"
       }
