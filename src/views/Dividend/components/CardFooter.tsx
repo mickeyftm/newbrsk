@@ -6,7 +6,6 @@ import useI18n from 'hooks/useI18n'
 import { ChevronDown, ChevronUp } from 'react-feather'
 import Balance from 'components/Balance'
 import { CommunityTag, CoreTag, BinanceTag } from 'components/Tags'
-import { PoolCategory } from 'config/constants/types'
 
 const tags = {
   [PoolCategory.BINANCE]: BinanceTag,
@@ -99,24 +98,12 @@ const CardFooter: React.FC<Props> = ({
       </Row>
       {isOpen && (
         <Details>
-          <Row style={{ marginBottom: '4px' }}>
-            <FlexFull>
-              <Label>
-                <span role="img" aria-label="syrup">
-                {' '}
-                </span>
-                {TranslateString(408, 'Total')}
-              </Label>
-            </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={getBalanceNumber(totalStaked)} />
-          </Row>
           {blocksUntilStart > 0 && (
             <Row>
               <FlexFull>
                 <Label>{TranslateString(410, 'Start')}:</Label>
               </FlexFull>
               <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} />
-              <CakeStats fontSize="14px" />
             </Row>
           )}
           {blocksUntilStart === 0 && blocksRemaining > 0 && (
