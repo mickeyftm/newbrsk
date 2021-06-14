@@ -7,6 +7,7 @@ import { ChevronDown, ChevronUp } from 'react-feather'
 import Balance from 'components/Balance'
 import { CommunityTag, CoreTag, BinanceTag } from 'components/Tags'
 import { PoolCategory } from 'config/constants/types'
+import CakeStats2 from './components/CakeStats2'
 
 const tags = {
   [PoolCategory.BINANCE]: BinanceTag,
@@ -116,6 +117,7 @@ const CardFooter: React.FC<Props> = ({
                 <Label>{TranslateString(410, 'Start')}:</Label>
               </FlexFull>
               <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} />
+              <CakeStats2 />
             </Row>
           )}
           {blocksUntilStart === 0 && blocksRemaining > 0 && (
