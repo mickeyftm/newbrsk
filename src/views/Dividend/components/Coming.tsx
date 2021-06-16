@@ -42,9 +42,9 @@ const Coming: React.FC = () => {
         <br />
         <Label>Distributes fee income back to BRSK holders.</Label>
         <Label>This round, we will add $1,000 worth WMATIC to Dividend pool.</Label>
-        {/*<Button variant="secondary" fullWidth mb="16px">
-          <span style={{fontSize: 'x-large'}}>620 WMATIC</span>
-          </Button>*/}
+        {/* <Button variant="secondary" fullWidth mb="16px"> */}
+          {/* <span style={{fontSize: 'x-large'}}>620 WMATIC</span> */}
+          {/* </Button> */}
       </div>
       <Footer>
       <div style={{ flex: 1 }}> Let us know what <b>DIVIDEND</b> you would like to see next!</div>
