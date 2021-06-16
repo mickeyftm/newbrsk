@@ -11,7 +11,7 @@ export default {
   sousMasterChef: {
     56: '',
     97: '',
-    137: '0x57E9b452bF589D642BD8D84CDB22466f782f1d31'
+    137: '0x8553c5C2f2f0C48018E7b650d7061f1FbEE7f7B1'
   },
   lottery: {
     56: '',

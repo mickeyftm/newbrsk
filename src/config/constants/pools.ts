@@ -4,15 +4,15 @@ const pools: PoolConfig[] = [
   {
     sousId: 1,
     tokenName: 'WMATIC',
-    stakingTokenName: QuoteToken.SYRUP,
+    stakingTokenName: QuoteToken.CAKE,
     stakingTokenAddress: '0x3e9d8d160b9e7b7c0fd34de872671dba88405313',
     contractAddress: {
-     137: '0x57E9b452bF589D642BD8D84CDB22466f782f1d31'
+     137: '0x8553c5C2f2f0C48018E7b650d7061f1FbEE7f7B1'
     },
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://pancakeswap.finance/',
-    harvest: false,
-    tokenPerBlock: '.0125',
+    harvest: true,
+    tokenPerBlock: '.003473684211',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
