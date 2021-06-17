@@ -14,6 +14,7 @@ import NftGlobalNotification from './views/Nft/components/NftGlobalNotification'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const Dividend = lazy(() => import('./views/Dividend'))
+const Poolss = lazy(() => import('./views/Poolss'))
 // const Lottery = lazy(() => import('./views/Lottery'))
 // const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
