@@ -9,13 +9,12 @@ import { getFullDisplayBalance } from 'utils/formatBalance'
 
 interface DepositModalProps {
   earnings: BigNumber
-  onConfirm: (amount: string, decimal: number) => void
+  onConfirm: (amount: string) => void
   onDismiss?: () => void
   tokenName?: string
-  decimal?: number
 }
 
-const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDismiss, tokenName = '', decimal}) => {
+const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDismiss, tokenName = '' }) => {
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
   const fullBalance = useMemo(() => {
@@ -40,7 +39,7 @@ const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDis
           disabled={pendingTx}
           onClick={async () => {
             setPendingTx(true)
-            await onConfirm(fullBalance, decimal)
+            await onConfirm(fullBalance)
             setPendingTx(false)
             onDismiss()
           }}

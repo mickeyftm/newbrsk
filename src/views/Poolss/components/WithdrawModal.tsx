@@ -8,13 +8,12 @@ import { getFullDisplayBalance } from '../../../utils/formatBalance'
 
 interface WithdrawModalProps {
   max: BigNumber
-  onConfirm: (amount: string, decimal: number) => void
+  onConfirm: (amount: string) => void
   onDismiss?: () => void
   tokenName?: string
-  decimal?: number
 }
 
-const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max, tokenName = '', decimal}) => {
+const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max, tokenName = '' }) => {
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
@@ -50,7 +49,7 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max
           disabled={pendingTx}
           onClick={async () => {
             setPendingTx(true)
-            await onConfirm(val, decimal)
+            await onConfirm(val)
             setPendingTx(false)
             onDismiss()
           }}
