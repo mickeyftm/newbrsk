@@ -21,7 +21,6 @@ interface Props {
   isFinished: boolean
   blocksUntilStart: number
   poolCategory: PoolCategory
-  unit?: string
 }
 
 const StyledFooter = styled.div<{ isFinished: boolean }>`
@@ -80,7 +79,6 @@ const CardFooter: React.FC<Props> = ({
   isFinished,
   blocksUntilStart,
   poolCategory,
-  unit,
 }) => {
   const [isOpen, setIsOpen] = useState(false)
   const TranslateString = useI18n()
@@ -112,14 +110,11 @@ const CardFooter: React.FC<Props> = ({
           {blocksUntilStart === 0 && blocksRemaining > 0 && (
             <Row>
               <FlexFull>
-                <Label>{TranslateString(411, 'End')}:</Label>
+                <Label>{TranslateString(410, 'End')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} unit={unit} decimals={0} />
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={0} />
             </Row>
           )}
-          <TokenLink href={projectLink} target="_blank">
-            {TranslateString(412, 'View project site')}
-          </TokenLink>
         </Details>
       )}
     </StyledFooter>

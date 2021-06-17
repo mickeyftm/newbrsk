@@ -8,12 +8,13 @@ import { getFullDisplayBalance } from '../../../utils/formatBalance'
 
 interface WithdrawModalProps {
   max: BigNumber
-  onConfirm: (amount: string) => void
+  onConfirm: (amount: string, decimal: number) => void
   onDismiss?: () => void
   tokenName?: string
+  decimal?: number
 }
 
-const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max, tokenName = '' }) => {
+const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max, tokenName = '', decimal}) => {
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
@@ -33,13 +34,13 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max
   }, [fullBalance, setVal])
 
   return (
-    <Modal title={`Withdraw ${tokenName}`} onDismiss={onDismiss}>
+    <Modal title={`${TranslateString(317, 'Withdraw')} BRSK`} onDismiss={onDismiss}>
       <TokenInput
         onSelectMax={handleSelectMax}
         onChange={handleChange}
         value={val}
         max={fullBalance}
-        symbol={tokenName}
+        symbol='BRSK'
       />
       <ModalActions>
         <Button variant="secondary" onClick={onDismiss}>
@@ -49,7 +50,7 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max
           disabled={pendingTx}
           onClick={async () => {
             setPendingTx(true)
-            await onConfirm(val)
+            await onConfirm(val, decimal)
             setPendingTx(false)
             onDismiss()
           }}

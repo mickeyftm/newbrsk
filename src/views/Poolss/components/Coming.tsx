@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { Image, Button } from '@pancakeswap-libs/uikit'
 import { CommunityTag } from 'components/Tags'
 import useI18n from 'hooks/useI18n'
+import Card from './Card'
 import CardTitle from './CardTitle'
-import Card from'./Card'
 
 const Balance = styled.div`
   color: ${({ theme }) => theme.colors.text};
@@ -39,29 +39,17 @@ const Coming: React.FC = () => {
   return (
     <Card>
       <div style={{ padding: '24px' }}>
-        <CardTitle>{TranslateString(414, 'Your GAJ Project')}</CardTitle>
-        <Image src="/images/applynow.png" width={64} height={64} alt="Your project" />
-        <Balance>???</Balance>
-        <Label>{TranslateString(416, 'Create a pool for your token')}</Label>
-        <Button variant="secondary" as="a" href="https://t.me/polygajhead" external fullWidth mb="16px">
-          {TranslateString(418, 'Apply Now')}
-        </Button>
-        <DetailPlaceholder>
-          <div style={{ flex: 1 }}>{TranslateString(736, 'APR')}:</div>
-          <Value>???</Value>
-        </DetailPlaceholder>
-        <DetailPlaceholder>
-          <div style={{ flex: 1 }}>
-            <span role="img" aria-label="polygaj">
-             {' '}
-            </span>
-            {TranslateString(384, 'Your Stake')}:
-          </div>
-          <Value>???</Value>
-        </DetailPlaceholder>
+        <CardTitle>Dividend Pool</CardTitle>
+        <Image src="/images/egg/9.png" width={64} height={64} alt="Dividends" />
+        <br />
+        <Label>Distributes fee income back to BRSK holders.</Label>
+        <Label>This round, we will add $1,000 worth WMATIC to Dividend pool.</Label>
+        {/* <Button variant="secondary" fullWidth mb="16px"> */}
+          {/* <span style={{fontSize: 'x-large'}}>620 WMATIC</span> */}
+          {/* </Button> */}
       </div>
       <Footer>
-        <CommunityTag />
+        <div style={{ flex: 1 }}> Let us know what <b>DIVIDEND</b> you would like to see next!</div>
       </Footer>
     </Card>
   )

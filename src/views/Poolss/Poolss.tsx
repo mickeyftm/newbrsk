@@ -82,10 +82,10 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            Jungle Pools
+            Dividend Pool
           </Heading>
           <ul>
-            <li>Stake GAJ to earn new tokens</li>
+            <li>Stake BRSK to earn new tokens</li>
             <li>You can unstake at any time.</li>
             <li>Rewards are calculated per block</li>
           </ul>

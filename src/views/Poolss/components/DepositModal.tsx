@@ -8,13 +8,14 @@ import { getFullDisplayBalance } from '../../../utils/formatBalance'
 
 interface DepositModalProps {
   max: BigNumber
-  onConfirm: (amount: string) => void
+  onConfirm: (amount: string, decimal: number) => void
   onDismiss?: () => void
   tokenName?: string
   burnFeeBP?: number
+  decimal?: number
 }
 
-const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, tokenName = '' }) => {
+const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, tokenName = '', decimal}) => {
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
@@ -34,13 +35,13 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
   }, [fullBalance, setVal])
 
   return (
-    <Modal title={`${TranslateString(316, 'Deposit')} ${tokenName} Tokens`} onDismiss={onDismiss}>
+    <Modal title={`${TranslateString(316, 'Deposit')} BRSK`} onDismiss={onDismiss}>
       <TokenInput
         value={val}
         onSelectMax={handleSelectMax}
         onChange={handleChange}
         max={fullBalance}
-        symbol={tokenName}
+        symbol='BRSK'
         // burnFee={burnFeeBP}
       />
       <ModalActions>
@@ -52,7 +53,7 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
           disabled={pendingTx}
           onClick={async () => {
             setPendingTx(true)
-            await onConfirm(val)
+            await onConfirm(val, decimal)
             setPendingTx(false)
             onDismiss()
           }}
