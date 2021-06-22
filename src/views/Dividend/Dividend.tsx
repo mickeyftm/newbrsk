@@ -83,6 +83,9 @@ const Farm: React.FC = () => {
       </Hero>
       <CakeStats />
       <br />
+      <Heading as="h1" size="xl" mb="20px">
+      Please be sure to harvest your WMATIC before you unstake BRSK.
+          </Heading>
       <PoolTabButtons />
       <Divider />
       <FlexLayout>
