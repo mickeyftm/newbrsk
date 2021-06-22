@@ -81,7 +81,7 @@ const Farm: React.FC = () => {
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
       </Hero>
-      {/*} <CakeStats /> */}
+      {/* <CakeStats /> */}
       <br />
       <Heading as="h1" size="xl" mb="20px">
       <u>Please be sure to harvest your WMATIC before you unstake BRSK.</u>
