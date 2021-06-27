@@ -83,9 +83,9 @@ const Farm: React.FC = () => {
       </Hero>
       {/* <CakeStats /> */}
       <br />
-      <Heading as="h1" size="xl" mb="20px">
-      <u>Please be sure to harvest your WMATIC before you unstake BRSK.</u>
-          </Heading>
+      <Heading as="h2" size="xl" mb="20px" style={{ textAlign: 'center' }}>
+      ** Please be sure to harvest your rewards before unstaking BRSK **
+      </Heading>
       <PoolTabButtons />
       <Divider />
       <FlexLayout>
