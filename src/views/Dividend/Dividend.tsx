@@ -83,8 +83,8 @@ const Farm: React.FC = () => {
       </Hero>
       {/* <CakeStats /> */}
       <br />
-      <Heading as="h2" size="xl" mb="20px" style={{ textAlign: 'center' }}>
-      ** Please be sure to harvest your rewards before unstaking BRSK **
+      <Heading as="h2" size="lg" mb="20px" style={{ textAlign: 'center' }}>
+      ! Please be sure to harvest your rewards BEFORE unstaking BRSK !
       </Heading>
       <PoolTabButtons />
       <Divider />
