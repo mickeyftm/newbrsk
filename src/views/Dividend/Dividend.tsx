@@ -86,7 +86,6 @@ const Farm: React.FC = () => {
       <Heading as="h2" size="lg" mb="20px" style={{ textAlign: 'center' }}>
       ! Please be sure to harvest your rewards BEFORE unstaking BRSK !
       </Heading>
-      <PoolTabButtons />
       <Divider />
       <FlexLayout>
         <Route exact path={`${path}`}>
