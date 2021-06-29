@@ -32,7 +32,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Dividend Pool',
-    icon: 'LayTicketIconerIcon',
+    icon: 'TicketIcon',
     href: '/dividend',
   },
   {
