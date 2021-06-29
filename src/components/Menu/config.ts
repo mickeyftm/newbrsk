@@ -34,6 +34,11 @@ const config: MenuEntry[] = [
     label: 'Dividend Pool',
     icon: 'LayerIcon',
     href: '/dividend',
+  },
+  {
+    label: 'Layer Farm',
+    icon: 'LayerIcon',
+    href: 'https://hawk.berserkfinance.com',
    },
   // {
   //   label: 'Pools',
