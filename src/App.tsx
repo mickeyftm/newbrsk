@@ -15,6 +15,7 @@ const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const Dividend = lazy(() => import('./views/Dividend'))
 const Lottery = lazy(() => import('./views/Lottery'))
+const Profit = lazy(() => import('./views/Profit'))
 // const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
@@ -59,6 +60,9 @@ const App: React.FC = () => {
             {/*  <Pools /> */}
             {/* </Route> */}
             <Route path="/lottery">
+            <Lottery />
+            </Route>
+            <Route path="/profit">
             <Lottery />
             </Route>
             {/* <Route path="/ifo"> */}
